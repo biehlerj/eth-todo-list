@@ -72,30 +72,41 @@ If you want to add more tests for the `TodoList` add them under `test/TodoList.t
 
 1. [build](./build)
    1. [contracts](./build/contracts)
+   
    | File | Description |
    | ---- | ----------- |
    | Migrations.json | JSON Data related to the Migrations Contract. This allows any connecting web app to read public information about the contract or use any public functions related to the contract |
    | TodoList.json | JSON Data related to the TodoList Contract. This allows any connection web app to read public information about the contract or use any public functions related to the contract |
+
 2. [contracts](./contracts)
+   
    | File | Description |
    | ---- | ----------- |
    | Migrations.sol | Solidity code that describes the structure of the Contract and any actions that can be made against the Contract |
    | TodoList.sol | Solidity code that describes the structure of the Contract and any actions that can be made against the Contract |
+
 3. [migrations](./migrations)
+   
    | File | Description |
    | ---- | ----------- |
    | 1_initial_migration.js | Initial migration file provided by Truffle |
    | 2_deploy_contracts.js | Migration file that deploys the TodoList contract to the blockchain |
+
 4. [src](./src)
+   
    | File | Description |
    | ---- | ----------- |
    | app.js | JavaScript code for the frontend of the TodoList. Allows a user to create, complete, or uncomplete a task. |
    | index.html | Basic HTML file that renders the tasks in the browser |
+
 5. [test](./test)
+   
    | File | Description |
    | ---- | ----------- |
    | TodoList.test.js | Tests for making sure a contract is successfully executed when a task is manipulated |
+
 6. Base directory
+   
    | File | Description |
    | ---- | ----------- |
    | .gitignore | Files to ignore adding to the git repo |
